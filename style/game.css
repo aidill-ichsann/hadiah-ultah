@@ -1,0 +1,35 @@
+@media (max-width: 700px) {
+  :root {
+    --background-color: #ffe5ec;
+    --color-text: #333333;
+    --tombol: #edafb8;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+  /* style.css */
+  body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #fff0f5;
+    text-align: center;
+    margin: 0;
+  }
+  .header{
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .area-game {
+    border: 1px solid #cac6c6;
+    background-color: #030300;
+    width: 100%;
+    height: 100vh;
+  }
+  .player{
+    url(background:%20url%28%27https%3A//emojicdn.elk.sh/%F0%9F%A7%8D%E2%80%8D%E2%99%82%EF%B8%8F%27%29%20no-repeat%20center%3B)
+  }
+}

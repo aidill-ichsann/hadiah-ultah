@@ -1,0 +1,145 @@
+@media (max-width: 700px) {
+  :root {
+    --background-color: #ffe5ec;
+    --color-text: #333333;
+    --tombol: #edafb8;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+  body {
+    background-color: var(--background-color);
+    font-family: "Caveat", cursive;
+    color: var(--color-text);
+  }
+
+  .container {
+    padding: 10px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+  .galery {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* padding-left: 20px; */
+  }
+  .foto.satu {
+    position: relative;
+    width: 150px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-image: url(/images/ning-1.jpg);
+    background-size: cover;
+  }
+  .foto.dua {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-image: url(/images/ning-2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .foto.tiga {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-image: url(/images/ning-3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    .foto.empat {
+        position: relative;
+        width: 150px;
+        height: 300px;
+        bottom: 90px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-image: url(/images/ning-4.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .foto.lima {
+        position: relative;
+        width: 150px;
+        height: 200px;
+        bottom: 90px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-image: url(/images/ning-5.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .foto.enam {
+        position: relative;
+        width: 150px;
+        height: 300px;
+        bottom: 90px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-image: url(/images/ning-6.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .foto.tujuh {
+        position: relative;
+        width: 150px;
+        height: 200px;
+        bottom: 150px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-image: url(/images/ning-7.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .foto.delapan {
+        position: relative;
+        width: 150px;
+        height: 200px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-image: url(/images/ning-8.jpg);
+        background-size: cover;
+        background-position: center;
+    }.foto.sembilan {
+        position: relative;
+        width: 150px;
+        height: 200px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-image: url(/images/ning-9.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .foto.sepuluh {
+        position: relative;
+        width: 150px;
+        height: 200px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-image: url(/images/ning-10.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
