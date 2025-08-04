@@ -122,6 +122,7 @@
         position: relative;
         width: 150px;
         height: 200px;
+        bottom: 100px;
         /* border: 1px solid black; */
         border-radius: 20px;
         background-image: url(/images/ning-9.jpg);

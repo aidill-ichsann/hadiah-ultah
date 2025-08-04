@@ -1,55 +1,37 @@
-// script.js
-const player = document.querySelector('.player');
-const gift = document.querySelector('.gift');
-const scoreText = document.getElementById('score');
+const player = document.querySelector(".player img");
+const areaGame = document.querySelector(".area-game");
+const kiri = document.querySelector(".kiri");
+const kanan = document.querySelector(".kanan");
 
-let playerX = 120;
-let giftY = 0;
-let giftX = Math.floor(Math.random() * 250);
-let score = 0;
+// initial position player berada di tengah
+const lebarArea = areaGame.offsetWidth;
+const lebarPlayer = player.offsetWidth;
+let posisi = (lebarArea - lebarPlayer) / 2;
+player.style.left = `${posisi}px`;
+console.log(posisi + 'belum');
 
-// Gerak kiri/kanan
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'ArrowLeft' && playerX > 0) {
-    playerX -= 10;
-  } else if (e.key === 'ArrowRight' && playerX < 240) {
-    playerX += 10;
+
+kiri.addEventListener("click", () => {
+  posisi = parseInt(player.style.left);
+
+  if (posisi > 0) {
+    posisi -= 15;
+    if (posisi < 0) posisi = 0;
+
+    player.style.left = `${posisi}px`;
+    player.style.transform = "scaleX(1)";
   }
-  player.style.left = `${playerX}px`;
 });
 
-// Jatuhin kado
-function dropGift() {
-  giftY += 5;
-  gift.style.top = `${giftY}px`;
-  gift.style.left = `${giftX}px`;
+kanan.addEventListener("click", () => {
+  posisi = parseInt(player.style.left);
+  const batas = areaGame.offsetWidth - player.offsetWidth;
 
-  // Cek benturan
-  if (
-    giftY >= 440 &&
-    giftX + 30 > playerX &&
-    giftX < playerX + 60
-  ) {
-    score++;
-    scoreText.textContent = score;
-    resetGift();
+  if (posisi < batas) {
+    posisi += 15;
+    if (posisi > batas) posisi = batas;
 
-    // Bonus ucapan manis 🥹
-    if (score === 10) {
-      alert("Kamu udah dapetin semua cinta Aidil~ 💖🎁");
-    }
+    player.style.left = `${posisi}px`;
+    player.style.transform = "scaleX(-1)";
   }
-
-  // Reset kalau jatuh lewat
-  if (giftY > 500) {
-    resetGift();
-  }
-}
-
-function resetGift() {
-  giftY = 0;
-  giftX = Math.floor(Math.random() * 250);
-}
-
-// Game loop
-setInterval(dropGift, 50);
+});
