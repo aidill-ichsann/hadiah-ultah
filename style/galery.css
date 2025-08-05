@@ -42,7 +42,7 @@
     height: 300px;
     /* border: 1px solid black; */
     border-radius: 20px;
-    background-image: url(/images/ning-1.jpg);
+    background-image: url(images/ning-1.jpg);
     background-size: cover;
   }
   .foto.dua {
@@ -51,7 +51,7 @@
     height: 200px;
     /* border: 1px solid black; */
     border-radius: 20px;
-    background-image: url(/images/ning-2.jpg);
+    background-image: url(images/ning-2.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -61,7 +61,7 @@
     height: 200px;
     /* border: 1px solid black; */
     border-radius: 20px;
-    background-image: url(/images/ning-3.jpg);
+    background-image: url(images/ning-3.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -72,7 +72,7 @@
         bottom: 90px;
         /* border: 1px solid black; */
         border-radius: 20px;
-        background-image: url(/images/ning-4.jpg);
+        background-image: url(images/ning-4.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -83,7 +83,7 @@
         bottom: 90px;
         /* border: 1px solid black; */
         border-radius: 20px;
-        background-image: url(/images/ning-5.jpg);
+        background-image: url(images/ning-5.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -94,7 +94,7 @@
         bottom: 90px;
         /* border: 1px solid black; */
         border-radius: 20px;
-        background-image: url(/images/ning-6.jpg);
+        background-image: url(images/ning-6.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -105,7 +105,7 @@
         bottom: 150px;
         /* border: 1px solid black; */
         border-radius: 20px;
-        background-image: url(/images/ning-7.jpg);
+        background-image: url(images/ning-7.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -115,7 +115,7 @@
         height: 200px;
         /* border: 1px solid black; */
         border-radius: 20px;
-        background-image: url(/images/ning-8.jpg);
+        background-image: url(images/ning-8.jpg);
         background-size: cover;
         background-position: center;
     }.foto.sembilan {
@@ -125,7 +125,7 @@
         bottom: 100px;
         /* border: 1px solid black; */
         border-radius: 20px;
-        background-image: url(/images/ning-9.jpg);
+        background-image: url(images/ning-9.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -135,7 +135,7 @@
         height: 200px;
         /* border: 1px solid black; */
         border-radius: 20px;
-        background-image: url(/images/ning-10.jpg);
+        background-image: url(images/ning-10.jpg);
         background-size: cover;
         background-position: center;
     }

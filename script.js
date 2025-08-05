@@ -6,9 +6,9 @@ const eror = document.querySelector('.eror');
 tombol.addEventListener('click',()=>{
     const nama = input.value;
     if (nama === 'ningg'){
-        window.location.href = 'pages/dashboard.html';
+        window.location.href ='pages/dashboard.html' ;
     } else{
-        const namaEror = document.querySelector('#namaEror');
+        const namaEror = document.querySelector(        '#namaEror');
         namaEror.textContent = nama;
         input.value = '';
         eror.style.display = 'block';
