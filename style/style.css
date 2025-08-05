@@ -51,7 +51,8 @@
     font-weight: bold;
   }
   #tombol {
-        font-size: 22px;
+    font-size: 22px;
+    font-weight:700 ;
     background-color: var(--tombol);
     color: var(--color-text);
     padding: 10px 20px;
