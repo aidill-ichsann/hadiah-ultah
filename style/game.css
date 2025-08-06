@@ -28,17 +28,21 @@
     border: 1px solid #cac6c6;
     background-color: #030303;
     width: 100%;
-    height: 90vh;
+    height: 100dvh;
   }
   .player img {
     position: absolute;
-    bottom: 0;
+    bottom: 100px;
     transition: left 0.05s linear;
     width: 60px;
   }
   .panah {
     display: flex;
     justify-content: space-evenly;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
     /* margin-top: 10px; */
   }
   .kiri,
@@ -49,12 +53,20 @@
     /* border-radius: 10px; */
     /* font-size: 22px;     */
     /* font-family: "Caveat", cursive; */
-    cursor:pointer;
+    cursor: pointer;
   }
-  .kiri{
+  .kiri {
     left: 0;
   }
-  .kanan{
-    right:0;
+  .kanan {
+    right: 0;
+  }
+  img.hadiah,
+  img.bom{
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
   }
 }

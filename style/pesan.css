@@ -22,11 +22,26 @@
     align-items: center;
     padding: 10px;
   }
-  p{
+  .tombol-kembali {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+  .tombol-kembali p {
+    background-color: var(--tombol);
+    margin: 0;
+    color: var(--color-text);
+    padding:5px 14px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  p {
     font-size: 24px;
     font-weight: 600;
   }
-  .pesan{
+  .pesan {
     width: 100%;
     background-color: var(--tombol);
     padding: 20px;

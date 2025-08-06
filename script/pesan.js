@@ -1,6 +1,3 @@
-const tombol = document.querySelector('.tombol').addEventListener('click',()=>{
-    window.location.href = '../pages/game.html'
-})
 // tombol kembali
 const tombolKembali = document.querySelector('.tombol-kembali');
 tombolKembali.addEventListener('click', () => {

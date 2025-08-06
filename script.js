@@ -4,9 +4,9 @@ const eror = document.querySelector('.eror');
 
 
 tombol.addEventListener('click',()=>{
-    const nama = input.value;
+    const nama = input.value.toLowerCase();
     if (nama === 'ningg'){
-        window.location.href ='pages/dashboard.html' ;
+        window.location.href ='../pages/dashboard.html' ;
     } else{
         const namaEror = document.querySelector(        '#namaEror');
         namaEror.textContent = nama;
